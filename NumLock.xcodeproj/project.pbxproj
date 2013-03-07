@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F061B8A16E901FD00DD2AE8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F061B8916E901FD00DD2AE8 /* Cocoa.framework */; };
+		5F061B9416E901FD00DD2AE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F061B9216E901FD00DD2AE8 /* InfoPlist.strings */; };
+		5F061B9616E901FD00DD2AE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F061B9516E901FD00DD2AE8 /* main.m */; };
+		5F061B9A16E901FD00DD2AE8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5F061B9816E901FD00DD2AE8 /* Credits.rtf */; };
+		5F061B9D16E901FD00DD2AE8 /* NLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F061B9C16E901FD00DD2AE8 /* NLAppDelegate.m */; };
+		5F061BA016E901FD00DD2AE8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F061B9E16E901FD00DD2AE8 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F061B8616E901FD00DD2AE8 /* NumLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F061B8916E901FD00DD2AE8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5F061B8C16E901FD00DD2AE8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5F061B8D16E901FD00DD2AE8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5F061B8E16E901FD00DD2AE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F061B9116E901FD00DD2AE8 /* NumLock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NumLock-Info.plist"; sourceTree = "<group>"; };
+		5F061B9316E901FD00DD2AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F061B9516E901FD00DD2AE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F061B9716E901FD00DD2AE8 /* NumLock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NumLock-Prefix.pch"; sourceTree = "<group>"; };
+		5F061B9916E901FD00DD2AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5F061B9B16E901FD00DD2AE8 /* NLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLAppDelegate.h; sourceTree = "<group>"; };
+		5F061B9C16E901FD00DD2AE8 /* NLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLAppDelegate.m; sourceTree = "<group>"; };
+		5F061B9F16E901FD00DD2AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F061B8316E901FD00DD2AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F061B8A16E901FD00DD2AE8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F061B7D16E901FD00DD2AE8 = {
+			isa = PBXGroup;
+			children = (
+				5F061B8F16E901FD00DD2AE8 /* NumLock */,
+				5F061B8816E901FD00DD2AE8 /* Frameworks */,
+				5F061B8716E901FD00DD2AE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F061B8716E901FD00DD2AE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F061B8616E901FD00DD2AE8 /* NumLock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F061B8816E901FD00DD2AE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F061B8916E901FD00DD2AE8 /* Cocoa.framework */,
+				5F061B8B16E901FD00DD2AE8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F061B8B16E901FD00DD2AE8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F061B8C16E901FD00DD2AE8 /* AppKit.framework */,
+				5F061B8D16E901FD00DD2AE8 /* CoreData.framework */,
+				5F061B8E16E901FD00DD2AE8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5F061B8F16E901FD00DD2AE8 /* NumLock */ = {
+			isa = PBXGroup;
+			children = (
+				5F061B9B16E901FD00DD2AE8 /* NLAppDelegate.h */,
+				5F061B9C16E901FD00DD2AE8 /* NLAppDelegate.m */,
+				5F061B9E16E901FD00DD2AE8 /* MainMenu.xib */,
+				5F061B9016E901FD00DD2AE8 /* Supporting Files */,
+			);
+			path = NumLock;
+			sourceTree = "<group>";
+		};
+		5F061B9016E901FD00DD2AE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F061B9116E901FD00DD2AE8 /* NumLock-Info.plist */,
+				5F061B9216E901FD00DD2AE8 /* InfoPlist.strings */,
+				5F061B9516E901FD00DD2AE8 /* main.m */,
+				5F061B9716E901FD00DD2AE8 /* NumLock-Prefix.pch */,
+				5F061B9816E901FD00DD2AE8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F061B8516E901FD00DD2AE8 /* NumLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F061BA316E901FD00DD2AE8 /* Build configuration list for PBXNativeTarget "NumLock" */;
+			buildPhases = (
+				5F061B8216E901FD00DD2AE8 /* Sources */,
+				5F061B8316E901FD00DD2AE8 /* Frameworks */,
+				5F061B8416E901FD00DD2AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumLock;
+			productName = NumLock;
+			productReference = 5F061B8616E901FD00DD2AE8 /* NumLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F061B7E16E901FD00DD2AE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Object Factory";
+			};
+			buildConfigurationList = 5F061B8116E901FD00DD2AE8 /* Build configuration list for PBXProject "NumLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F061B7D16E901FD00DD2AE8;
+			productRefGroup = 5F061B8716E901FD00DD2AE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F061B8516E901FD00DD2AE8 /* NumLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F061B8416E901FD00DD2AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F061B9416E901FD00DD2AE8 /* InfoPlist.strings in Resources */,
+				5F061B9A16E901FD00DD2AE8 /* Credits.rtf in Resources */,
+				5F061BA016E901FD00DD2AE8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F061B8216E901FD00DD2AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F061B9616E901FD00DD2AE8 /* main.m in Sources */,
+				5F061B9D16E901FD00DD2AE8 /* NLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F061B9216E901FD00DD2AE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F061B9316E901FD00DD2AE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F061B9816E901FD00DD2AE8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F061B9916E901FD00DD2AE8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5F061B9E16E901FD00DD2AE8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F061B9F16E901FD00DD2AE8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F061BA116E901FD00DD2AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F061BA216E901FD00DD2AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F061BA416E901FD00DD2AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumLock/NumLock-Prefix.pch";
+				INFOPLIST_FILE = "NumLock/NumLock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F061BA516E901FD00DD2AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumLock/NumLock-Prefix.pch";
+				INFOPLIST_FILE = "NumLock/NumLock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F061B8116E901FD00DD2AE8 /* Build configuration list for PBXProject "NumLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F061BA116E901FD00DD2AE8 /* Debug */,
+				5F061BA216E901FD00DD2AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F061BA316E901FD00DD2AE8 /* Build configuration list for PBXNativeTarget "NumLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F061BA416E901FD00DD2AE8 /* Debug */,
+				5F061BA516E901FD00DD2AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F061B7E16E901FD00DD2AE8 /* Project object */;
+}
