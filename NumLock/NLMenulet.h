@@ -1,13 +1,13 @@
 //
-//  NLAppDelegate.h
+//  NLMenulet.h
 //  NumLock
 //
 //  Created by Christian A. Strømmen on 07.03.13.
 //  Copyright (c) 2013 Object Factory. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
-@interface NLAppDelegate : NSObject <NSApplicationDelegate>
+@interface NLMenulet : NSObject <NSCoding, NSMenuDelegate>
 
 @end

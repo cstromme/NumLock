@@ -31,7 +31,7 @@
 				<string key="NSClassName">NSApplication</string>
 			</object>
 			<object class="NSCustomObject" id="976324537">
-				<string key="NSClassName">NLAppDelegate</string>
+				<string key="NSClassName">NLHAppDelegate</string>
 			</object>
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -93,7 +93,7 @@
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<object class="IBPartialClassDescription">
-					<string key="className">NLAppDelegate</string>
+					<string key="className">NLHAppDelegate</string>
 					<string key="superclassName">NSObject</string>
 					<object class="NSMutableDictionary" key="outlets">
 						<string key="NS.key.0">window</string>
@@ -108,7 +108,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/NLAppDelegate.h</string>
+						<string key="minorKey">./Classes/NLHAppDelegate.h</string>
 					</object>
 				</object>
 			</array>

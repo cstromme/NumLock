@@ -13,7 +13,44 @@
 		5F061B9A16E901FD00DD2AE8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5F061B9816E901FD00DD2AE8 /* Credits.rtf */; };
 		5F061B9D16E901FD00DD2AE8 /* NLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F061B9C16E901FD00DD2AE8 /* NLAppDelegate.m */; };
 		5F061BA016E901FD00DD2AE8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F061B9E16E901FD00DD2AE8 /* MainMenu.xib */; };
+		5F061BA816E9024900DD2AE8 /* NLMenulet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F061BA716E9024900DD2AE8 /* NLMenulet.m */; };
+		5F061BBC16E91E1700DD2AE8 /* disabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F061BBA16E91E1700DD2AE8 /* disabled@2x.png */; };
+		5F061BBD16E91E1700DD2AE8 /* enabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F061BBB16E91E1700DD2AE8 /* enabled@2x.png */; };
+		5F061BBF16E92BB200DD2AE8 /* NLAlertWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F061BBE16E92BB200DD2AE8 /* NLAlertWindow.xib */; };
+		5F061BC116E93B3300DD2AE8 /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F061BC016E93B3300DD2AE8 /* keyboard.png */; };
+		5F061BC316E93FF100DD2AE8 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F061BC216E93FF100DD2AE8 /* Carbon.framework */; };
+		5F061BCE16E9424300DD2AE8 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F061BCD16E9424300DD2AE8 /* DDHotKeyCenter.m */; };
+		5F061BD616E94E8000DD2AE8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F061B8916E901FD00DD2AE8 /* Cocoa.framework */; };
+		5F061BDC16E94E8000DD2AE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F061BDA16E94E8000DD2AE8 /* InfoPlist.strings */; };
+		5F061BDE16E94E8000DD2AE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F061BDD16E94E8000DD2AE8 /* main.m */; };
+		5F061BE516E94E8000DD2AE8 /* NLHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F061BE416E94E8000DD2AE8 /* NLHAppDelegate.m */; };
+		5F061BE816E94E8000DD2AE8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F061BE616E94E8000DD2AE8 /* MainMenu.xib */; };
+		5F061BF516E9526900DD2AE8 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F061BEF16E950E700DD2AE8 /* ServiceManagement.framework */; };
+		5F061BF816E9539800DD2AE8 /* NumLockHelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F061BD516E94E8000DD2AE8 /* NumLockHelper.app */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F69A63F16E957FC00EDC3F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F061B7E16E901FD00DD2AE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F061BD416E94E8000DD2AE8;
+			remoteInfo = NumLockHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F061BED16E9500400DD2AE8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				5F061BF816E9539800DD2AE8 /* NumLockHelper.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5F061B8616E901FD00DD2AE8 /* NumLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +66,24 @@
 		5F061B9B16E901FD00DD2AE8 /* NLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLAppDelegate.h; sourceTree = "<group>"; };
 		5F061B9C16E901FD00DD2AE8 /* NLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLAppDelegate.m; sourceTree = "<group>"; };
 		5F061B9F16E901FD00DD2AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5F061BA616E9024900DD2AE8 /* NLMenulet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLMenulet.h; sourceTree = "<group>"; };
+		5F061BA716E9024900DD2AE8 /* NLMenulet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLMenulet.m; sourceTree = "<group>"; };
+		5F061BBA16E91E1700DD2AE8 /* disabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disabled@2x.png"; sourceTree = "<group>"; };
+		5F061BBB16E91E1700DD2AE8 /* enabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enabled@2x.png"; sourceTree = "<group>"; };
+		5F061BBE16E92BB200DD2AE8 /* NLAlertWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLAlertWindow.xib; sourceTree = "<group>"; };
+		5F061BC016E93B3300DD2AE8 /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard.png; sourceTree = "<group>"; };
+		5F061BC216E93FF100DD2AE8 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		5F061BCC16E9424300DD2AE8 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
+		5F061BCD16E9424300DD2AE8 /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
+		5F061BD516E94E8000DD2AE8 /* NumLockHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumLockHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F061BD916E94E8000DD2AE8 /* NumLockHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NumLockHelper-Info.plist"; sourceTree = "<group>"; };
+		5F061BDB16E94E8000DD2AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F061BDD16E94E8000DD2AE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F061BDF16E94E8000DD2AE8 /* NumLockHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NumLockHelper-Prefix.pch"; sourceTree = "<group>"; };
+		5F061BE316E94E8000DD2AE8 /* NLHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLHAppDelegate.h; sourceTree = "<group>"; };
+		5F061BE416E94E8000DD2AE8 /* NLHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLHAppDelegate.m; sourceTree = "<group>"; };
+		5F061BE716E94E8000DD2AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5F061BEF16E950E700DD2AE8 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +91,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F061BF516E9526900DD2AE8 /* ServiceManagement.framework in Frameworks */,
+				5F061BC316E93FF100DD2AE8 /* Carbon.framework in Frameworks */,
 				5F061B8A16E901FD00DD2AE8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F061BD216E94E8000DD2AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F061BD616E94E8000DD2AE8 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				5F061B8F16E901FD00DD2AE8 /* NumLock */,
+				5F061BD716E94E8000DD2AE8 /* NumLockHelper */,
 				5F061B8816E901FD00DD2AE8 /* Frameworks */,
 				5F061B8716E901FD00DD2AE8 /* Products */,
 			);
@@ -56,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				5F061B8616E901FD00DD2AE8 /* NumLock.app */,
+				5F061BD516E94E8000DD2AE8 /* NumLockHelper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +130,8 @@
 		5F061B8816E901FD00DD2AE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5F061BEF16E950E700DD2AE8 /* ServiceManagement.framework */,
+				5F061BC216E93FF100DD2AE8 /* Carbon.framework */,
 				5F061B8916E901FD00DD2AE8 /* Cocoa.framework */,
 				5F061B8B16E901FD00DD2AE8 /* Other Frameworks */,
 			);
@@ -84,7 +153,15 @@
 			children = (
 				5F061B9B16E901FD00DD2AE8 /* NLAppDelegate.h */,
 				5F061B9C16E901FD00DD2AE8 /* NLAppDelegate.m */,
+				5F061BA616E9024900DD2AE8 /* NLMenulet.h */,
+				5F061BA716E9024900DD2AE8 /* NLMenulet.m */,
+				5F061BCC16E9424300DD2AE8 /* DDHotKeyCenter.h */,
+				5F061BCD16E9424300DD2AE8 /* DDHotKeyCenter.m */,
+				5F061BBA16E91E1700DD2AE8 /* disabled@2x.png */,
+				5F061BBB16E91E1700DD2AE8 /* enabled@2x.png */,
+				5F061BC016E93B3300DD2AE8 /* keyboard.png */,
 				5F061B9E16E901FD00DD2AE8 /* MainMenu.xib */,
+				5F061BBE16E92BB200DD2AE8 /* NLAlertWindow.xib */,
 				5F061B9016E901FD00DD2AE8 /* Supporting Files */,
 			);
 			path = NumLock;
@@ -102,6 +179,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5F061BD716E94E8000DD2AE8 /* NumLockHelper */ = {
+			isa = PBXGroup;
+			children = (
+				5F061BE316E94E8000DD2AE8 /* NLHAppDelegate.h */,
+				5F061BE416E94E8000DD2AE8 /* NLHAppDelegate.m */,
+				5F061BE616E94E8000DD2AE8 /* MainMenu.xib */,
+				5F061BD816E94E8000DD2AE8 /* Supporting Files */,
+			);
+			path = NumLockHelper;
+			sourceTree = "<group>";
+		};
+		5F061BD816E94E8000DD2AE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F061BD916E94E8000DD2AE8 /* NumLockHelper-Info.plist */,
+				5F061BDA16E94E8000DD2AE8 /* InfoPlist.strings */,
+				5F061BDD16E94E8000DD2AE8 /* main.m */,
+				5F061BDF16E94E8000DD2AE8 /* NumLockHelper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,14 +211,33 @@
 				5F061B8216E901FD00DD2AE8 /* Sources */,
 				5F061B8316E901FD00DD2AE8 /* Frameworks */,
 				5F061B8416E901FD00DD2AE8 /* Resources */,
+				5F061BED16E9500400DD2AE8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F69A64016E957FC00EDC3F4 /* PBXTargetDependency */,
+			);
+			name = NumLock;
+			productName = NumLock;
+			productReference = 5F061B8616E901FD00DD2AE8 /* NumLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F061BD416E94E8000DD2AE8 /* NumLockHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F061BE916E94E8000DD2AE8 /* Build configuration list for PBXNativeTarget "NumLockHelper" */;
+			buildPhases = (
+				5F061BD116E94E8000DD2AE8 /* Sources */,
+				5F061BD216E94E8000DD2AE8 /* Frameworks */,
+				5F061BD316E94E8000DD2AE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NumLock;
-			productName = NumLock;
-			productReference = 5F061B8616E901FD00DD2AE8 /* NumLock.app */;
+			name = NumLockHelper;
+			productName = NumLockHelper;
+			productReference = 5F061BD516E94E8000DD2AE8 /* NumLockHelper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,6 +263,7 @@
 			projectRoot = "";
 			targets = (
 				5F061B8516E901FD00DD2AE8 /* NumLock */,
+				5F061BD416E94E8000DD2AE8 /* NumLockHelper */,
 			);
 		};
 /* End PBXProject section */
@@ -157,6 +276,19 @@
 				5F061B9416E901FD00DD2AE8 /* InfoPlist.strings in Resources */,
 				5F061B9A16E901FD00DD2AE8 /* Credits.rtf in Resources */,
 				5F061BA016E901FD00DD2AE8 /* MainMenu.xib in Resources */,
+				5F061BBC16E91E1700DD2AE8 /* disabled@2x.png in Resources */,
+				5F061BBD16E91E1700DD2AE8 /* enabled@2x.png in Resources */,
+				5F061BBF16E92BB200DD2AE8 /* NLAlertWindow.xib in Resources */,
+				5F061BC116E93B3300DD2AE8 /* keyboard.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F061BD316E94E8000DD2AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F061BDC16E94E8000DD2AE8 /* InfoPlist.strings in Resources */,
+				5F061BE816E94E8000DD2AE8 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,10 +301,29 @@
 			files = (
 				5F061B9616E901FD00DD2AE8 /* main.m in Sources */,
 				5F061B9D16E901FD00DD2AE8 /* NLAppDelegate.m in Sources */,
+				5F061BA816E9024900DD2AE8 /* NLMenulet.m in Sources */,
+				5F061BCE16E9424300DD2AE8 /* DDHotKeyCenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F061BD116E94E8000DD2AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F061BDE16E94E8000DD2AE8 /* main.m in Sources */,
+				5F061BE516E94E8000DD2AE8 /* NLHAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F69A64016E957FC00EDC3F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F061BD416E94E8000DD2AE8 /* NumLockHelper */;
+			targetProxy = 5F69A63F16E957FC00EDC3F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5F061B9216E901FD00DD2AE8 /* InfoPlist.strings */ = {
@@ -195,6 +346,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				5F061B9F16E901FD00DD2AE8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5F061BDA16E94E8000DD2AE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F061BDB16E94E8000DD2AE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F061BE616E94E8000DD2AE8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F061BE716E94E8000DD2AE8 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -264,10 +431,12 @@
 		5F061BA416E901FD00DD2AE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NumLock/NumLock-Prefix.pch";
 				INFOPLIST_FILE = "NumLock/NumLock-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,11 +445,43 @@
 		5F061BA516E901FD00DD2AE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NumLock/NumLock-Prefix.pch";
 				INFOPLIST_FILE = "NumLock/NumLock-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5F061BEA16E94E8000DD2AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumLockHelper/NumLockHelper-Prefix.pch";
+				INFOPLIST_FILE = "NumLockHelper/NumLockHelper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F061BEB16E94E8000DD2AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumLockHelper/NumLockHelper-Prefix.pch";
+				INFOPLIST_FILE = "NumLockHelper/NumLockHelper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -304,6 +505,16 @@
 				5F061BA516E901FD00DD2AE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F061BE916E94E8000DD2AE8 /* Build configuration list for PBXNativeTarget "NumLockHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F061BEA16E94E8000DD2AE8 /* Debug */,
+				5F061BEB16E94E8000DD2AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
